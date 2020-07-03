@@ -31,11 +31,11 @@ public class UserDto {
     private String additionalMail;
 
     @NotNull
-    @Pattern(regexp = "")
+    @Pattern(regexp = "^[+]?[(]?[0-9]{1,4}[)]?[- 0-9]*$")
     private String mainPhone;
 
     @Null
-    @Pattern(regexp = "")
+    @Pattern(regexp = "^[+]?[(]?[0-9]{1,4}[)]?[- 0-9]*$")
     private String additionalPhone;
 
     @PasswordValid

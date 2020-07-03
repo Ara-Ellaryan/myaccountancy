@@ -22,11 +22,11 @@ public class UserEntity {
 
     private String mainMail;
 
-    private String mailList;
+    private String additionalMail;
 
     private String mainPhone;
 
-    private String phoneList;
+    private String additionalPhone;
 
     private String password;
 
